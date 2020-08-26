@@ -2,3 +2,21 @@
 /*             Mixins                       */
 /* ============================================= */
 
+@mixin col {
+    margin-top: 10px;
+    flex-basis: 100%;
+    min-height: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@mixin link {
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+    transition: 
+    background-color .2s ease-in-out, 
+    color .2s ease-in-out;
+}

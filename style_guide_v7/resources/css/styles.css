@@ -263,7 +263,6 @@ a {
 
 .row {
   flex-direction: row;
-  
 }
 
 [class^=col] {
